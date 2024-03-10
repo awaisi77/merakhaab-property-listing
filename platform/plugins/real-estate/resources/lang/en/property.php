@@ -1,0 +1,51 @@
+<?php
+
+return [
+    'name'                => 'Properties',
+    'create'              => 'New property',
+    'edit'                => 'Edit property',
+    'form'                => [
+        'main_info'       => 'General information',
+        'basic_info'      => 'Basic information',
+        'name'            => 'Title',
+        'type'            => 'Type',
+        'images'          => 'Images',
+        'location'        => 'Property location',
+        'number_bedroom'  => 'Number bedrooms',
+        'number_bathroom' => 'Number bathrooms',
+        'number_floor'    => 'Number floors',
+        'square'          => 'Square (m2)',
+        'price'           => 'Price',
+        'features'        => 'Features',
+        'project'         => 'Project',
+        'date'            => 'Date information',
+        'currency'        => 'Currency',
+        'city'            => 'City',
+        'period'          => 'Period',
+        'category'        => 'Category',
+    ],
+    'statuses'            => [
+        'not_available' => 'Not available',
+        'pre_sale'      => 'Preparing selling',
+        'selling'       => 'Selling',
+        'sold'          => 'Sold',
+        'renting'       => 'Renting',
+        'rented'        => 'Rented',
+        'building'      => 'Building',
+    ],
+    'types'               => [
+        'sale' => 'Sale',
+        'rent' => 'Rent',
+    ],
+    'periods'             => [
+        'day'   => 'Day',
+        'month' => 'Month',
+        'year'  => 'Year',
+    ],
+    'moderation_status'   => 'Moderation status',
+    'moderation-statuses' => [
+        'pending'  => 'Pending',
+        'approved' => 'Approved',
+        'rejected' => 'Rejected',
+    ],
+];

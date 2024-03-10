@@ -1,0 +1,14 @@
+{
+    "name": "FlexHome",
+    "namespace": "Theme\\FlexHome\\",
+    "description": "Real Estate theme",
+    "author": "Sang Nguyen",
+    "version": "2.14",
+    "required_plugins": [
+        "blog",
+        "contact",
+        "language",
+        "location",
+        "real-estate"
+    ]
+}

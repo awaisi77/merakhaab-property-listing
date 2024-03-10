@@ -1,0 +1,9 @@
+platform\themes\flex-home\assets\js\components\PropertyComponent.vue
+platform\themes\flex-home\src\Http\Resources\PropertyResource.php
+platform\plugins\real-estate\src\Http\Controllers\PublicController.php
+public\themes\flex-home\css\style.css
+platform\themes\flex-home\views\property.blade.php
+platform\themes\flex-home\views\properties.blade.php
+platform\themes\flex-home\views\projects.blade.php
+
+ALTER TABLE `re_properties` ADD `views` INT(11) NOT NULL AFTER `never_expired`;
